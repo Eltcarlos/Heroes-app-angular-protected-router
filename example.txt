@@ -1,0 +1,8 @@
+ng g m auth
+ng g m heroes --routing
+ng g m shared 
+ng g m material
+ng g component auth/pages/layoutPage --inline-style --skip-tests
+ng g component heroes/pages/heroPage --inline-style --skip-tests
+ng g component shared/pages/404Page --inline-style --skip-tests
+ng add @angular/material
